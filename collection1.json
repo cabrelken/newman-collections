@@ -57,6 +57,9 @@
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test('test body', function () {\r",
+							"     pm.expect(pm.response.json()).to.have.property('message');\r",
 							"});"
 						],
 						"type": "text/javascript",
