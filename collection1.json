@@ -59,7 +59,7 @@
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"pm.test('test body', function () {\r",
-							"     pm.expect(pm.response.json()).to.have.property('message');\r",
+							"     pm.expect(pm.response.json()).to.have.property('messages');\r",
 							"});"
 						],
 						"type": "text/javascript",
